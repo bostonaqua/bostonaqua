@@ -12,7 +12,7 @@
         <property name="peerClassLoadingEnabled"  value="true" />
         <property name="metricExporterSpi">
             <list>
-                <bean class="org.apache.ignite.spi.metric.opencensus.OpenCensusMetricExporterSpi"/>
+                <bean class="org.apache.ignite.spi.metric.jmx.JmxMetricExporterSpi"/>
             </list>
         </property>
     </bean>
