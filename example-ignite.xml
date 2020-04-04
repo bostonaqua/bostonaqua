@@ -13,6 +13,7 @@
         <property name="metricExporterSpi">
             <list>
                 <bean class="org.apache.ignite.spi.metric.jmx.JmxMetricExporterSpi"/>
+                <bean class="org.apache.ignite.spi.metric.opencensus.OpenCensusMetricExporterSpi"/>
             </list>
         </property>
     </bean>
